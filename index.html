@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos1.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" defer></script>
+    <title>Calculadora de Juros</title>
+</head>
+
+<body>
+    <h1>Calculadora de Juros</h1>
+    <div class="container">
+        <form>
+            <p>Insira o capital em R$:</p>
+            <input type="number" id 'capital' required>
+            <p>Insira a taxa em %:</p>
+            <input type="number" id 'taxa' required>
+            <p>Insira o aporte mensal em R$:</p>
+            <input type="number" id 'aporte' required>
+            <p>Insira o tempo da aplicação em meses:</p>
+            <input type="number" id 'tempo' required>
+        </form>
+        <div>
+            <button>Calcular Juros Simples</button><span></span>
+            <button class="composto">Calcular Juros Compostos</button><span class="jcomposto"></span>
+        </div>
+    </div>
+    <footer>
+        <h4>Desenvolvido por Henrique Venâncio</h4>
+    </footer>
+</body>
+
+</html>
